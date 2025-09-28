@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2e7d32"/>
+      <stop offset="1" stop-color="#66bb6a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="240" fill="#ffffff"/>
+  <g transform="translate(0,140)">
+    <rect x="0" y="60" width="900" height="10" fill="#2e7d32"/>
+    <g fill="url(#g)">
+      <path d="M0,70c20-80,40-80,60,0H0z"/>
+      <path d="M70,70c20-120,40-120,60,0H70z"/>
+      <path d="M140,70c25-110,45-110,65,0H140z"/>
+      <path d="M210,70c18-90,38-90,58,0H210z"/>
+      <path d="M270,70c28-130,48-130,68,0H270z"/>
+      <path d="M340,70c20-100,40-100,60,0H340z"/>
+      <path d="M410,70c22-120,42-120,62,0H410z"/>
+      <path d="M480,70c24-110,44-110,64,0H480z"/>
+      <path d="M550,70c20-100,40-100,60,0H550z"/>
+      <path d="M620,70c28-130,48-130,68,0H620z"/>
+      <path d="M690,70c20-100,40-100,60,0H690z"/>
+      <path d="M760,70c22-120,42-120,62,0H760z"/>
+      <path d="M830,70c24-110,44-110,64,0H830z"/>
+    </g>
+  </g>
+  <text x="50%" y="95" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="40" font-weight="700" fill="#2e2e2e">
+    Couts Cuts Lawn Care LLC
+  </text>
+  <text x="50%" y="125" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="18" fill="#4e4e4e">
+    Lawn Care • Leaf Removal • Snow Removal
+  </text>
+</svg>

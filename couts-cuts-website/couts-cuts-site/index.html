@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Couts Cuts Lawn Care LLC | Lawn Care, Leaf & Snow Removal</title>
+  <meta name="description" content="Canton-area lawn care, leaf removal, and snow removal. Professional, reliable, and affordable. Free quotes."/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="container topbar">
+    <div style="display:flex;align-items:center;gap:.75rem">
+      <img id="logo" src="assets/logo.png" alt="Couts Cuts Lawn Care LLC logo"/>
+      <div>
+        <strong>Couts Cuts Lawn Care LLC</strong><br/>
+        <span class="kicker">Lawn care · Leaf removal · Snow removal</span>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Reliable Lawn Care, Leaf Removal & Snow Removal</h1>
+      <p>Season-round property care you can count on. From weekly mowing and trimming to fall cleanups and winter snow plowing, we keep your home or business looking its best.</p>
+      <div style="display:flex;gap:.75rem;flex-wrap:wrap">
+        <a class="btn primary" href="#contact">Get a Free Quote</a>
+        <a class="btn ghost" href="tel:13302240190">Call 330‑224‑0190</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section container">
+    <h2>Services</h2>
+    <p class="kicker">Everything you need for a great-looking property—spring, summer, fall, and winter.</p>
+    <div class="grid grid-3">
+      <div class="card">
+        <span class="badge">Lawn Care</span>
+        <h3>Mowing & Trimming</h3>
+        <p>Weekly or bi-weekly lawn mowing, string trimming, and edge detailing. Optional bagging and clippings haul-away.</p>
+        <ul>
+          <li>Weekly / bi-weekly schedules</li>
+          <li>Edge & walkways trimmed</li>
+          <li>Blow-off cleanup included</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="badge">Fall</span>
+        <h3>Leaf Removal</h3>
+        <p>Full-property leaf cleanup including beds, lawn, and hard surfaces. Bagging and curbside pickup or complete haul-away available.</p>
+        <ul>
+          <li>One-time or seasonal packages</li>
+          <li>Beds and gutters on request</li>
+          <li>Haul-away available</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="badge">Winter</span>
+        <h3>Snow Removal</h3>
+        <p>Residential and small commercial driveways, walkways, and steps. De-icing options available when conditions require.</p>
+        <ul>
+          <li>Per-push or seasonal</li>
+          <li>Walkways & steps cleared</li>
+          <li>De-icer on request</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section container">
+    <h2>Sample Pricing</h2>
+    <p class="kicker">Every property is different. Use these as ballpark figures—request a free quote for exact pricing.</p>
+    <div class="pricing">
+      <div class="price-card">
+        <h3>Weekly Mowing</h3>
+        <div class="price">from $35 / visit</div>
+        <ul>
+          <li>Typical small residential lot</li>
+          <li>Trim, edge, and blow-off</li>
+          <li>Bi-weekly from $45</li>
+        </ul>
+      </div>
+      <div class="price-card">
+        <h3>Leaf Removal</h3>
+        <div class="price">from $120 / cleanup</div>
+        <ul>
+          <li>Front & back yard</li>
+          <li>Beds & haul-away available</li>
+          <li>Seasonal packages available</li>
+        </ul>
+      </div>
+      <div class="price-card">
+        <h3>Snow Removal</h3>
+        <div class="price">from $35 / push</div>
+        <ul>
+          <li>Driveway + walkway</li>
+          <li>De-icing on request</li>
+          <li>Seasonal contracts available</li>
+        </ul>
+      </div>
+    </div>
+    <div class="notice" style="margin-top:1rem">
+      Prices vary by lot size, terrain, obstacles, and travel distance. We'll confirm your exact price after a quick on-site or photo estimate.
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <h2>Contact</h2>
+    <p class="kicker">Tell us a bit about your property and which services you need. We’ll get back to you quickly.</p>
+    <div class="contact">
+      <form id="contact-form" class="card">
+        <label>Name<br/><input id="name" required style="width:100%;padding:.6rem;border:1px solid #e1e5e1;border-radius:10px"/></label><br/>
+        <label>Phone<br/><input id="phone" required style="width:100%;padding:.6rem;border:1px solid #e1e5e1;border-radius:10px"/></label><br/>
+        <label>Email<br/><input id="email" type="email" required style="width:100%;padding:.6rem;border:1px solid #e1e5e1;border-radius:10px"/></label><br/>
+        <label>Service<br/>
+          <select id="service" style="width:100%;padding:.6rem;border:1px solid #e1e5e1;border-radius:10px">
+            <option>Lawn Care</option>
+            <option>Leaf Removal</option>
+            <option>Snow Removal</option>
+            <option>Multiple Services</option>
+          </select>
+        </label><br/>
+        <label>Message<br/>
+          <textarea id="message" rows="5" style="width:100%;padding:.6rem;border:1px solid #e1e5e1;border-radius:10px" placeholder="Property address, lot size (if known), gates/pets, preferred schedule..."></textarea>
+        </label><br/>
+        <button class="btn primary" type="submit">Send Request</button>
+      </form>
+      <div class="card">
+        <h3>Call or Text</h3>
+        <p><a class="btn ghost" href="tel:13302240190">330‑224‑0190</a></p>
+        <h3>Service Area</h3>
+        <p>Canton and surrounding areas.</p>
+        <h3>Hours</h3>
+        <p>Mon–Sat · 8am–6pm</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap">
+      <div>© <span id="year"></span> Couts Cuts Lawn Care LLC</div>
+      <div><a href="#services">Services</a> · <a href="#pricing">Pricing</a> · <a href="#contact">Contact</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
